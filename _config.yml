@@ -2,4 +2,4 @@ title: CBIAS napari workshop 2024
 description: CBIAS napari workshop 2024
 show_downloads: true
 google_analytics:
-theme: just-the-docs
+theme: jekyll-theme-slate

@@ -5,9 +5,10 @@
 # CBIAS napari workshop 2024
 CBIAS napari workshop 2024 - run as part of the Crick Bioimage Analysis Symposium 2024
 
-27-28 November 2024
+27-28 November 2024 <br>
 The Francis Crick Institute
-https://www.crick.ac.uk/whats-on/cbias-napari-workshop-2024
+
+[https://www.crick.ac.uk/whats-on/cbias-napari-workshop-2024](https://www.crick.ac.uk/whats-on/cbias-napari-workshop-2024)
 
 This training is developed and delivered by [Rocco D’Antuono](https://github.com/RoccoDAnt) (the Francis Crick Institute), [Giulia Paci](https://github.com/giuliapaci) (University College London) and [Marie Held](https://github.com/Marien-kaefer) (the University of Liverpool). Additional speakers include [Ana Stojiljkovic](https://github.com/StojiljkovicVetAna) (University of Bern), [Sebastian Gonzalez Tirado](https://github.com/sebgoti) (Heidelberg University), [Cameron Shand](https://github.com/sea-shunned) (the Francis Crick Institute) and [Graham Ross](https://github.com/grahamross123) (the Francis Crick Institute).
 

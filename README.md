@@ -35,7 +35,7 @@ The successful installation of Anaconda Navigator will make available an app cal
 
 a) Update conda, by typing the following line and pressing Enter.
 ```
-conda update -n base conda
+conda update -n base -c conda-forge conda
 ```
 
 b) create a new environment with a meaningful name: substitute with your choice the string "mymeaningfulname". E.g. "cbias-workshop-env". Please do not simplify with "napari-env", as half of the tutorial use that and you might risk to overwrite a previous environment which contain packages used in previous analyses.
@@ -58,6 +58,21 @@ conda install -c conda-forge napari pyqt
 ```
 
 e) check that napari opens
+At this point, if no error appears in the terminal as result of the operations above, you are ready to open napari executing
+```
+napari
+```
+### Create a conda environment with a recipe
+If a working environment cannot be created through the commands above, the following recipe can be used to create an environment with napari
+a) Download the file [cbias2024-napari-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/tree/main/envs/cbias2024-napari-env.yml) into a local folder
+
+b) use the Anaconda prompt to navigate to the local folder and execute
+```
+conda env create -f cbias2024-napari-env.yml
+```
+This should create an environment with the same name of the .yml file unless otherwise specified.
+
+c) check that napari opens
 At this point, if no error appears in the terminal as result of the operations above, you are ready to open napari executing
 ```
 napari

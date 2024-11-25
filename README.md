@@ -107,6 +107,19 @@ For installation instruction visit [Epitools repository](https://github.com/epit
 #### 15:00 – 15:30 - Coffee break
 * 15:30 – 17:30, First steps to customise napari GUI (hands-on session):
   * Introduction to Jupyter notebooks for bioimage analisis with python (Rocco D’Antuono)
+  Create and environment with Jupyter lab to execute python notebooks, with the following commands
+  ```
+  conda create -n cbias2024-jupyter-env python=3.10
+  conda activate cbias2024-jupyter-env
+  conda install jupyterlab
+  conda install -c conda-forge napari pyqt
+  conda install matplotlib
+  ```
+  or re-create the environment downloading this [cbias2024-jupyter-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/tree/main/envs/cbias2024-jupyter-env.yml) file and executing the following commands in Anaconda prompt (need to be in the local folder where the file is):
+  ```
+  conda env create -f cbias2024-jupyter-env.yml
+  ```  
+
   * Delving into Napari layer types (Sebastian Gonzalez Tirado)
   * Napari widgets and plugin creation with magicgui and plugin template (Cameron Shand)
   Instruction on the plugin creation demo: [https://github.com/FrancisCrickInstitute/cbias2024_napari_demo](https://github.com/FrancisCrickInstitute/cbias2024_napari_demo)
@@ -117,3 +130,25 @@ For installation instruction visit [Epitools repository](https://github.com/epit
 #### 18:00 – 18:30 - End of Day 1
 
 #### 18:30 - Drinks and nibbles reception (Crick canteen)
+
+# Day 2 - instructions and links
+#### 10:00 – 10:30 - Quick SOP for image.sc forum (all the trainers)
+ Visit [https://forum.image.sc/]() and create and account.
+
+#### 10:30 – 12:30 - Work on projects
+
+#### 12:30 – 13:30 - Lunch
+
+#### 13:30 – 14:00 - Check on project progress (all the trainers)
+
+#### 14:00 – 15:00 - Work on projects
+
+#### 15:00 – 15:30 - Coffee break
+
+#### 15:30 – 16:45 - Work on projects
+
+#### 16:45 – 17:00 - Feedback questionnaire
+
+#### 17:00 – 18:00 - Project presentations
+
+#### 18:00 - End of Day 2

@@ -64,6 +64,7 @@ napari
 ```
 ### Create a conda environment with a recipe
 If a working environment cannot be created through the commands above, the following recipe can be used to create an environment with napari
+
 a) Download the file [cbias2024-napari-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/tree/main/envs/cbias2024-napari-env.yml) into a local folder
 
 b) use the Anaconda prompt to navigate to the local folder and execute
@@ -77,3 +78,42 @@ At this point, if no error appears in the terminal as result of the operations a
 ```
 napari
 ```
+
+# Day 1 - instructions and links
+#### 10:00 – 10:10 - Welcome and introduction to the course
+#### 10:10 – 10:30 - Participants self-introduction
+#### 10:30 – 12:30 - Installation and napari GUI - Rocco D’Antuono and Sebastian Gonzalez Tirado
+
+Install napari with options 1 and 2 above or the provided recipe (.yml file).
+
+#### 12:30 – 13:30 - Lunch (Crick canteen ground floor)
+
+#### 13:30 – 15:00 - napari plugin showcase:
+* Basic 3D image segmentation with napari-zelda (Rocco D’Antuono)
+Follow Option D in the [napari-zelda plugin repository](https://github.com/RoccoDAnt/napari-zelda/tree/main) or download this [cbias2024-napari-zelda-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/tree/main/envs/cbias2024-napari-zelda-env.yml) file, use the Anaconda prompt to navigate to the local folder and execute
+```
+conda env create -f cbias2024-napari-zelda-env.yml
+```
+
+* EpiTools: a napari plugin for quantifying epithelial dynamics (Giulia Paci)
+For installation instruction visit [Epitools repository](https://github.com/epitools/epitools)
+
+* Mitochondria segmentation in EM data with napari-empanada (Marie Held)
+
+* Easy movie creation with napari-animation (Ana Stojiljkovic)
+
+* Interactive pixel classification using pretrained neural networks with napari-convpaint (Ana Stojiljkovic)
+
+#### 15:00 – 15:30 - Coffee break
+* 15:30 – 17:30, First steps to customise napari GUI (hands-on session):
+  * Introduction to Jupyter notebooks for bioimage analisis with python (Rocco D’Antuono)
+  * Delving into Napari layer types (Sebastian Gonzalez Tirado)
+  * Napari widgets and plugin creation with magicgui and plugin template (Cameron Shand)
+  Instruction on the plugin creation demo: [https://github.com/FrancisCrickInstitute/cbias2024_napari_demo](https://github.com/FrancisCrickInstitute/cbias2024_napari_demo)
+  * Introduction to image registration methods for 2D and 3D image data (Graham Ross)
+
+#### 17:30 – 18:00 - Brainstorming on trainees projects
+
+#### 18:00 – 18:30 - End of Day 1
+
+#### 18:30 - Drinks and nibbles reception (Crick canteen)

@@ -116,7 +116,7 @@ For installation instruction visit [Epitools repository](https://github.com/epit
 * Interactive pixel classification using pretrained neural networks with napari-convpaint (Ana Stojiljkovic)
 
 #### 15:00 – 15:30 - Coffee break
-* 15:30 – 17:30, First steps to customise napari GUI (hands-on session):
+#### 15:30 – 17:30 - First steps to customise napari GUI (hands-on session):
   * Introduction to Jupyter notebooks for bioimage analisis with python (Rocco D’Antuono)
   Create and environment with Jupyter lab to execute python notebooks, with the following commands
   ```

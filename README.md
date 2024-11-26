@@ -110,10 +110,15 @@ For installation instruction visit [Epitools repository](https://github.com/epit
   ```
   conda env create -f cbias2024-napari-empanada-env.yml
   ```
-
-* Easy movie creation with napari-animation (Ana Stojiljkovic)
-
-* Interactive pixel classification using pretrained neural networks with napari-convpaint (Ana Stojiljkovic)
+  
+* Interactive pixel classification using pretrained neural networks with [napari-convpaint](https://github.com/guiwitz/napari-convpaint) (Ana Stojiljkovic)
+Once you have installed napari in your environment using Option 1 or 2 above, you can install the napari convpaint plugin from PYPI:
+  ```
+  pip install napari-convpaint
+  ```
+  
+* Easy movie creation with [napari-animation](https://github.com/napari/napari-animation) (Ana Stojiljkovic)
+To easely create movies to document your image analysis results (.mp4, .gif, .mov, .mkv), add the napari-animation plugin to your napari environement. We recommend installing it from conda-forge, especially if you are using macOS. For detailed installation instructions, visit the [napari-animation repository](https://github.com/napari/napari-animation?tab=readme-ov-file#installation).
 
 #### 15:00 – 15:30 - Coffee break
 #### 15:30 – 17:30 - First steps to customise napari GUI (hands-on session):

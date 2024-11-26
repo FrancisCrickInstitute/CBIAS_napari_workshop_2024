@@ -99,6 +99,17 @@ conda env create -f cbias2024-napari-zelda-env.yml
 For installation instruction visit [Epitools repository](https://github.com/epitools/epitools)
 
 * Mitochondria segmentation in EM data with napari-empanada (Marie Held)
+  Either execute the following (note the python version must not be >3.9!)
+  ```
+  conda create -n empanada-ws-env python=3.9
+  conda activate empanada-ws-env
+  conda install -c conda-forge napari pyqt
+  pip install empanada-napari
+  ```
+  Alternatively, download the [cbias2024-napari-empanada-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/blob/main/envs/cbias2024-napari-empanada-env.yml) file, use the Anaconda prompt to navigate to the local folder and execute
+  ```
+  conda env create -f cbias2024-napari-empanada-env.yml
+  ```
 
 * Easy movie creation with napari-animation (Ana Stojiljkovic)
 

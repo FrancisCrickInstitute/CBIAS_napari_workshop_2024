@@ -91,9 +91,9 @@ Install napari with options 1 and 2 above or the provided recipe (.yml file).
 #### 13:30 – 15:00 - napari plugin showcase:
 * Basic 3D image segmentation with napari-zelda (Rocco D’Antuono)
 Follow Option D in the [napari-zelda plugin repository](https://github.com/RoccoDAnt/napari-zelda/tree/main) or download this [cbias2024-napari-zelda-env.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/tree/main/envs/cbias2024-napari-zelda-env.yml) file, use the Anaconda prompt to navigate to the local folder and execute
-```
-conda env create -f cbias2024-napari-zelda-env.yml
-```
+  ```
+  conda env create -f cbias2024-napari-zelda-env.yml
+  ```
 
 * EpiTools: a napari plugin for quantifying epithelial dynamics (Giulia Paci)
 For installation instruction visit [Epitools repository](https://github.com/epitools/epitools)
@@ -119,11 +119,11 @@ Once you have installed napari in your environment using Option 1 or 2 above, yo
   
 * Easy movie creation with [napari-animation](https://github.com/napari/napari-animation) (Ana Stojiljkovic)<br>
 To easely create movies to document your image analysis results (.mp4, .gif, .mov, .mkv), add the napari-animation plugin to your napari environement. We recommend installing it from conda-forge, especially if you are using macOS. For detailed installation instructions, visit the [napari-animation repository](https://github.com/napari/napari-animation?tab=readme-ov-file#installation).
-```
-conda install -c conda-forge napari-animation
-```
-If you prefer please use the [cbias24-napari-convpaint.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/blob/main/envs/cbias24-napari-convpaint.yml) file to install a napari environment containing both plugins, napari-convpaint & napari-animation.<br>
-[Slides](https://docs.google.com/presentation/d/1ksxZsOKaJJVPIDcIefkZj2oq5Po8j0VpXtOYa0bNOTY/edit?usp=sharing) for the napari-convpaint & napari-animation showcase.
+  ```
+  conda install -c conda-forge napari-animation
+  ```
+  If you prefer please use the [cbias24-napari-convpaint.yml](https://github.com/FrancisCrickInstitute/CBIAS_napari_workshop_2024/blob/main/envs/cbias24-napari-convpaint.yml) file to   install a napari environment containing both plugins, napari-convpaint & napari-animation.<br>
+  [Slides](https://docs.google.com/presentation/d/1ksxZsOKaJJVPIDcIefkZj2oq5Po8j0VpXtOYa0bNOTY/edit?usp=sharing) for the napari-convpaint & napari-animation showcase.
 
 #### 15:00 – 15:30 - Coffee break
 #### 15:30 – 17:30 - First steps to customise napari GUI (hands-on session):
